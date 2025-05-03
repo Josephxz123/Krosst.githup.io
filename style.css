@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.mensaje {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.contador {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.newsletter {
+  margin-top: 50px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #888;
+}
